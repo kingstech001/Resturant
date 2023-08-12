@@ -320,7 +320,7 @@ li a{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100vh;
+    height: 140vh;
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -428,7 +428,7 @@ footer ul{
         width: 100%;
         text-align: center;
         padding: 0 2rem;
-        height: 100vh;
+        height: 150vh;
         place-items: center;
     }
     .section-1 .article{
@@ -455,7 +455,7 @@ footer ul{
         margin: 5rem 0;
     }
     .about{
-        height: 100vh;
+        height: 150vh;
     }
     
     .about article p{
@@ -486,7 +486,7 @@ footer ul{
         flex-direction: column-reverse;
         text-align: center;
         padding: 2rem;
-        height: 100vh;
+        height: 150vh;
         justify-content: center;
     }
     
@@ -518,7 +518,7 @@ footer ul{
         place-items: center;
         gap: 2rem;
         padding: 0 2rem;
-        height: 100vh;
+        height: 150vh;
     }
     .section-6 article{
         width: 100%;
@@ -548,11 +548,5 @@ footer ul{
     }
     .top,.down{
         flex-direction: column;
-    }
-    .top{
-        /* height: ; */
-    }
-    .down{
-        /* align-items: baseline; */
     }
 }
