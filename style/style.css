@@ -231,7 +231,6 @@ li a{
     padding: .5rem 2rem;
     font-size: 10px;
     background-color: transparent;
-    /* color: #FFFFFF; */
     border: 1px solid #000;
     border-radius: 5px;
 }
@@ -340,7 +339,7 @@ li a{
 }
 .big-image-5{
     width: 50%;
-    background-image: url(/images/Rectangle\ 14.svg);
+    background-image: url("../images/Rectangle\ 14.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -369,7 +368,10 @@ footer{
     /* border: red solid; */
     justify-content: center;
     padding: 5rem;
-    font-size: 20px;
+    font-size: 15px;
+}
+.footer-logo{
+    width: 23%;
 }
 
 .top{
@@ -386,6 +388,9 @@ footer{
 footer ul{
     flex-direction: column;
     align-items: flex-start;
+}
+h3{
+    text-transform: uppercase;
 }
 /* -----------------------------mobile view -------------------------------------*/
 @media (max-width:480px) {
@@ -450,12 +455,12 @@ footer ul{
 
     .section-3{
         padding: 0;
-        height: 150vh;
+        height: 200vh;
         display: grid;
         margin: 5rem 0;
     }
     .about{
-        height: 150vh;
+        height: 200vh;
     }
     
     .about article p{
@@ -541,7 +546,7 @@ footer ul{
     }
     footer{
         padding: 2rem;
-        height: 150vh;
+        height: 180vh;
     }
     .big-image-5{
         width: 100%;
