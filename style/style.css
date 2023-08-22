@@ -437,7 +437,7 @@ h3{
         width: 100%;
         text-align: center;
         padding: 0 2rem;
-        height: 150vh;
+        height: 120vh;
         place-items: center;
     }
     .section-1 .article{
@@ -459,12 +459,12 @@ h3{
 
     .section-3{
         padding: 0;
-        height: 200vh;
+        height: 150vh;
         display: grid;
         margin: 5rem 0;
     }
     .about{
-        height: 200vh;
+        height: 150vh;
     }
     
     .about article p{
@@ -495,7 +495,7 @@ h3{
         flex-direction: column-reverse;
         text-align: center;
         padding: 2rem;
-        height: 150vh;
+        height: 120vh;
         justify-content: center;
     }
     
@@ -526,7 +526,7 @@ h3{
         place-items: center;
         gap: 2rem;
         padding: 0 2rem;
-        height: 150vh;
+        height: 120vh;
     }
     .section-6 article{
         width: 100%;
