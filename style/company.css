@@ -1,0 +1,122 @@
+
+.company{
+    background-color: rgb(236, 247, 247);
+    height: 200px;
+}
+.company h1{
+    text-align: center;
+    padding-top: 60px;
+}
+span{
+    color:rgb(28, 207, 207)
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 100%;
+    align-items: center;
+}
+.thop{
+    margin-left: 50px;
+    width: 50%;
+}
+.thop h2{
+    font-family: "Inter",sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 73px;
+    letter-spacing: 0.05em;
+    padding-top: 4rem;
+    color: #35B8BE;
+
+}
+
+.thop p{
+  
+    font-family: "Inter" ,sans-serif;
+   
+    padding-top: 20px;
+ 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    letter-spacing: 0.05em;
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.pic img{
+    width: 70%;
+}
+.thop p{
+    margin-top: 25px;
+    color: black;
+}
+.thop button a{
+    color: white;
+}
+.thop button{
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(53, 184, 190, 1);
+    border: none;
+}
+.frame{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position:relative;
+    bottom: 300px;
+}
+.rec{
+
+    background: url('assests/Rectangle.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+}
+
+.framee {
+    color: white;
+    font-size: 30px;
+    padding-top: 15rem;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.framee h3{
+    text-align: center;
+}
+
+.framee p{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1220px) {
+
+    
+    .home {
+        justify-content: center;
+    }
+
+    .thop{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+
+    .home .pic img {
+        margin-left: 4rem;
+    }
+
+
+}
