@@ -1,3 +1,6 @@
+main{
+    /* padding: 5rem; */
+}
 .head{
     height: 30vh;
     background-color: rgba(53, 184, 190, 0.1);
@@ -48,13 +51,7 @@
 hr{
     margin: 15px -5px 15px 13px;
 }
-.plus{
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
-}
+
 .question img{
     width: 15px;
 }
@@ -71,13 +68,7 @@ hr{
 hr{
     margin: 15px -5px 15px 13px;
 }
-.plus{
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
-}
+
 .delivery img{
     width: 15px;
 }
@@ -97,7 +88,6 @@ hr{
 }
 .plus{
     display: flex;
-    flex: 1;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;

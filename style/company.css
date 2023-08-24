@@ -1,11 +1,13 @@
 
 .company{
     background-color: rgb(236, 247, 247);
-    height: 200px;
+    height: 471px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .company h1{
     text-align: center;
-    padding-top: 60px;
 }
 span{
     color:rgb(28, 207, 207)
@@ -17,45 +19,35 @@ span{
     margin-top: 40px;
     width: 100%;
     align-items: center;
+    height: 100vh;
+    padding: 5rem;
 }
 .thop{
-    margin-left: 50px;
     width: 50%;
 }
-.thop h2{
+.thop h1{
     font-family: "Inter",sans-serif;
-    font-size: 35px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 73px;
     letter-spacing: 0.05em;
-    padding-top: 4rem;
     color: #35B8BE;
-
 }
 
 .thop p{
-  
     font-family: "Inter" ,sans-serif;
-   
     padding-top: 20px;
- 
     font-size: 16px;
     font-weight: 400;
     line-height: 19.36px;
     letter-spacing: 0.05em;
-    
-    color: rgba(0, 0, 0, 0.5);
+    color: #00000080;
 }
-
-
 
 .pic img{
-    width: 70%;
+    max-width: 100%;
 }
-.thop p{
-    margin-top: 25px;
-    color: black;
-}
+
 .thop button a{
     color: white;
 }
@@ -74,13 +66,10 @@ span{
     bottom: 300px;
 }
 .rec{
-
-    background: url('assests/Rectangle.jpg');
-    
+    background: url('../assests/Rectangle.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    
 }
 
 .framee {
@@ -89,7 +78,7 @@ span{
     padding-top: 15rem;
     display: flex;
     justify-content: space-around;
- 
+    flex-wrap: wrap;
 }
 
 .framee h3{
@@ -102,21 +91,20 @@ span{
 
 
 @media screen and (max-width: 1220px) {
-
     
     .home {
         justify-content: center;
+        height: 150vh;
     }
-
     .thop{
         text-align: center;
         margin: 0 auto;
         margin-bottom: 3rem;
     }
-
+    .thop h1{
+        font-size: 40px;
+    }
     .home .pic img {
         margin-left: 4rem;
     }
-
-
 }
