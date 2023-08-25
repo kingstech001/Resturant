@@ -1,19 +1,23 @@
-main{
-    /* padding: 5rem; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .head{
     height: 30vh;
     background-color: rgba(53, 184, 190, 0.1);
-    text-align: center;
 }
 .head h2{
-
-    font-family: "Inter",sans-serif;
-    font-size: 35px;
-    font-weight: 700;
+    text-align: center;
+    padding: 5%;
+    font-family: 'inter';
+    font-size: 30px;
     line-height: 40px;
-    letter-spacing: 0.05em;
-    padding-top: 4rem;
+    text-indent: -0px;
+}
+.head span{
     color: #35B8BE;
 }
 .button{
@@ -35,10 +39,6 @@ main{
     border-radius: 6px;
     background-color: white;
 }
-
-.head span{
-    color: #35B8BE;
-}
 .question{
     flex: 1;
     flex-direction: row;
@@ -51,25 +51,37 @@ main{
 hr{
     margin: 15px -5px 15px 13px;
 }
-
+.plus{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
 .question img{
     width: 15px;
 }
 /* stlye for delivery */
-.delivery{
+.deliverys{
     flex: 1;
     flex-direction: row;
     padding: 5% 10%;
 }
-.delivery p{
+.deliverys p{
     margin: 15px;
     color: #35B8BE;
 }
 hr{
     margin: 15px -5px 15px 13px;
 }
-
-.delivery img{
+.plus{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.deliverys img{
     width: 15px;
 }
 /* style for company */
@@ -86,8 +98,11 @@ hr{
 hr{
     margin: 15px -5px 15px 13px;
 }
+
+
 .plus{
     display: flex;
+    flex: 1;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;

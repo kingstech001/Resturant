@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>resturant</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=FontName:weights,character-sets" />
-
-    <link rel="stylesheet" href="./style/faq.css">
+    <title>restaurant|order|page</title>
+    <link rel="stylesheet" href="./style/order.css">
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/index.css">
 </head>
-
 <body>
     <header>
         <section class="small">
             <p>We'ar open and available for take away & delivery.<span><a href="#">Order Now</a></span></p>
         </SECtion>
         <section class="nav-section">
-            <img src="./images/logo 1 1.svg" alt="image here">
+            <img src="./images/logo icon.svg" alt="image here">
             <nav>
-                <ul>
+                <ul class="nav-menu">
                     <li><a href="./index.html" class="nav-item">Home</a></li>
-                    <li><a href="./othernow.html" class="nav-item">Order</a></li>
+                    <li><a href="./order.html" class="nav-item">Order</a></li>
                     <li><a href="./company.html" class="nav-item">Company</a></li>
                     <li><a href="./faq.html" class="nav-item">FAQ</a></li>
                     <li><a href="#" class="nav-item">Contact</a></li>
                 </ul>
-                <img src="./images/ic_round-shopping-cart.svg" alt="image here" class="cart">
+                <div class="cart-container">
+                    <div class="count">0</div>
+                    <img src="./images/ic_round-shopping-cart.svg" alt="image here" class="cart">
+                </div>
                 <div class="hamburger">
                     <div class="nav-bar"></div>
                     <div class="nav-bar"></div>
@@ -36,24 +35,28 @@
             </nav>
         </section>
     </header>
-
-    <section class="browse-menus">
-        <div class="browse-menus-text">
-            <h2>Get your food delivered, or pick-up in store.</h2>
-        </div>
-        <div class="menus-buttons">
-            <button>Burgers</button>
-            <button>Sides</button>
-            <button>Drinks</button>
-        </div>
-        <div class="menus-container" id="card">
-        </div>
+    <section class="banner">
+        <div class="h2t">
+        <h2>Get your food <span class="deliver">delivered</span>,<br>or <span class="pick">pick-up</span> in store.
+        </h2>
+    </div>
     </section>
-    <!-- footer -->
+    <section class="btns">
+        <ul>
+            <li><a href="#">Full Menu</a></li>
+            <li><a href="#">Burgers</a></li>
+            <li><a href="#">Slides</a></li>
+            <li><a href="#">Drinks</a></li>
+        </ul>
+    </section>
+    <section class="cart-menu">
+        <img id="rainbow" src=""></div>
+    </section>
+    <div class="next-btn"><a href="#">Next ></a></div>
     <footer>
         <div class="top">
             <section class="footer-logo">
-                <img src="./images/logo 1 1.svg" alt="image here">
+                <img src="./images/logo icon.svg" alt="image here">
                 <p>Takeaway & Delivery template for small-medium business.</p>
             </section>
             <section class="Company">
@@ -86,13 +89,12 @@
                 Built by <a href="#">Kingsley </a>. Powered by <a href="#">Webflow</a>
             </section>
             <section class="social-network">
-                <img src="./images/Vector.svg" alt="imahge here">
-                <img src="./images/Vector-1.svg" alt="imahge here">
-                <img src="./images/Vector-2.svg" alt="imahge here">
+                <div class="social-icon"><img src="./images/Vector.svg" alt="imahge here"></div>
+                <div class="social-icon"><img src="./images/Vector-1.svg" alt="imahge here"></div>
+                <div class="social-icon"><img src="./images/Vector-2.svg" alt="imahge here"></div>
             </section>
         </div>
     </footer>
     <script src="./main/script.js"></script>
-    <script src="./main/order.js"></script>
 </body>
 </html>

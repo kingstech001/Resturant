@@ -1,5 +1,5 @@
 const ourFood = document.querySelector(".question")
-const ourDelivery = document.querySelector(".delivery")
+const ourDelivery = document.querySelector(".deliverys")
 const ourCompany = document.querySelector(".company")
 const deliver = document.getElementById("deli")
 const company = document.getElementById("comp")

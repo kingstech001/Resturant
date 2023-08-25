@@ -22,11 +22,24 @@ header p{
 header span a{
     color: #FFFFFF;
 }
-
+.count{
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    top: 25px;
+    left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #35B8BE;
+}
 .cart{
     background-color: #35B8BE;
-    padding: 7px;
+    padding: 20px;
     border-radius: 5px;
+    display: flex;
 }
 
 .nav-section, nav, ul{
@@ -38,6 +51,7 @@ header span a{
     justify-content: space-between;
     padding: 1rem 5rem;
 }
+
 li:nth-child(5){
     border-bottom: 2px solid #00000080;
 }
@@ -87,6 +101,12 @@ li a{
 .section-1 .article{
     width: 50%;
     margin-bottom: 2rem;
+}
+
+video{
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
 }
 
 .big-image{
@@ -392,8 +412,56 @@ footer ul{
 }
 h3{
     text-transform: uppercase;
+    margin-bottom:2rem;
+}
+.social-network{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
+.social-network img{
+    width: 20px;
+}
+
+.social-icon{
+    border: 1px solid #00000080;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart{
+    position: absolute;
+    z-index: 1;
+}
+.cart-header{
+    width: 100%;
+    border-bottom:1px solid #00000080;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+.bar{
+    height: 2px;
+    width: 20px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.bar:nth-child(1){
+    transform:translateY(3px) rotate(45deg);
+}
+.bar:nth-child(2) {
+    transform:translateY(-5px) rotate(-45deg);
+}
 /* -----------------------------mobile view -------------------------------------*/
 
 @media (max-width:480px) {
@@ -555,7 +623,7 @@ h3{
         place-items: center;
         gap: 2rem;
         padding: 0 2rem;
-        height: 120vh;
+        height: 150vh;
     }
     .section-6 article{
         width: 100%;

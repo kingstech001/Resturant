@@ -1,4 +1,9 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .company{
     background-color: rgb(236, 247, 247);
     height: 471px;
@@ -14,7 +19,7 @@ span{
 }
 .home{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     margin-top: 40px;
     width: 100%;
@@ -24,6 +29,12 @@ span{
 }
 .thop{
     width: 50%;
+}
+.pic{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .thop h1{
     font-family: "Inter",sans-serif;
@@ -43,6 +54,7 @@ span{
     letter-spacing: 0.05em;
     color: #00000080;
 }
+
 
 .pic img{
     max-width: 100%;
@@ -70,15 +82,19 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .framee {
     color: white;
     font-size: 30px;
-    padding-top: 15rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5rem;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .framee h3{
@@ -94,13 +110,20 @@ span{
     
     .home {
         justify-content: center;
-        height: 150vh;
+        height: 120vh;
+        flex-direction: column;
+        padding: 2rem;
     }
     .thop{
         text-align: center;
         margin: 0 auto;
         margin-bottom: 3rem;
+        width: 100%;
     }
+    
+        .pic {
+            width: 100%;
+        }
     .thop h1{
         font-size: 40px;
     }
