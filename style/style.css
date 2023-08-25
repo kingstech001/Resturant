@@ -436,7 +436,7 @@ h3{
     justify-content: center;
 }
 
-.cart{
+/* .cart{
     position: absolute;
     z-index: 1;
 }
@@ -461,7 +461,7 @@ h3{
 }
 .bar:nth-child(2) {
     transform:translateY(-5px) rotate(-45deg);
-}
+} */
 /* -----------------------------mobile view -------------------------------------*/
 
 @media (max-width:480px) {
