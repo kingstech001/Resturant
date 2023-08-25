@@ -118,7 +118,7 @@ video{
     border-radius: 10px;
 }
 
-.big-image{
+.video{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,10 +126,7 @@ video{
 
 }
 
-.hero-image-1{
-    max-width: 100%;
-    height: 80vh;
-}
+
 
 .section-1 h2 , .section-2 h2,.section-3 h2,.section-4 h2,.section-5 h2,.section-6 h2,.section-7 h2{
     font-size: 60px;
@@ -523,7 +520,7 @@ h3{
     .section-1 .article{
         width: 100%;
     }
-    .big-image,.big-image-2{
+    .video,.big-image-2{
         width: 100%;
     }
     .section-1 h2,.section-2 h2,.section-3 h2,.section-4 h2,.section-6 h2,.section-7 h2{
