@@ -304,7 +304,7 @@ video{
 }
 
 .section-5 button,.section-6 button{
-    padding: 1.5rem 5rem;
+    padding: 1.5rem 3rem;
     font-size: 16px;
     background-color: #35B8BE;
     border: none;
@@ -320,7 +320,7 @@ video{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     padding: 5rem;
     background-color: #EFF9FA;
 }
@@ -335,17 +335,17 @@ video{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
+    max-width: 50%;
 }
 .hero-image-4{
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .section-7{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 140vh;
+    height: 120vh;
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -361,7 +361,7 @@ video{
     height: 80vh;
     background-color: #35B8BE;
     padding: 2rem;
-    gap: 5rem;
+    gap: 2rem;
 }
 .big-image-5{
     width: 50%;
@@ -444,15 +444,7 @@ h3{
 
 /* -----------------------------mobile view -------------------------------------*/
 
-@media (max-width:480px) {
-    .bts {
-            display: grid;
-            gap: 1rem;
-        }    
-    .footer-logo{
-    width: 100%;
-    }
-}
+
 
 @media (max-width:1000px){
     header p{
@@ -485,7 +477,7 @@ h3{
     }
 
     header ul.active{
-        top:18%;
+        top:30%;
         bottom: 0%;
     }
     
@@ -514,7 +506,7 @@ h3{
         width: 100%;
         text-align: center;
         padding: 0 2rem;
-        height: 120vh;
+        height: 200vh;
         place-items: center;
     }
     .section-1 .article{
@@ -536,12 +528,12 @@ h3{
 
     .section-3{
         padding: 0;
-        height: 150vh;
+        height: 220vh;
         display: grid;
         margin: 5rem 0;
     }
     .about{
-        height: 150vh;
+        height: 200vh;
     }
     
     .about article p{
@@ -568,11 +560,11 @@ h3{
         padding: 1rem 2rem;
     }
     
-    .section-5{
+    .section-5,.section-4{
         flex-direction: column-reverse;
         text-align: center;
         padding: 2rem;
-        height: 120vh;
+        height: 180vh;
         justify-content: center;
     }
     
@@ -603,14 +595,15 @@ h3{
         place-items: center;
         gap: 2rem;
         padding: 0 2rem;
-        height: 150vh;
+        height: 180vh;
     }
     .section-6 article{
         width: 100%;
+        height: 50vh;
     }
     .big-image-4{
         width: 100%;
-        align-items: center;
+        height: 100vh;
     }
     .section-7{
         flex-direction: column;
@@ -622,11 +615,10 @@ h3{
     }
     .section-7 article{
         width: 100%;
-        
     }
     footer{
         padding: 2rem;
-        height: 100vh;
+        height: 180vh;
     }
     .big-image-5{
         width: 100%;
@@ -643,5 +635,40 @@ h3{
     }
         .footer-logo {
             width: 100%;
+        }
+}
+@media (max-width:480px) {
+    .bts {
+        display: grid;
+        gap: 1rem;
+    }
+
+    .footer-logo {
+        width: 100%;
+    }
+}
+@media (max-width:450px) {
+    .section-3 {
+        height: 280vh;
+    }
+
+    .about {
+        height: 280vh;
+    }
+
+    .section-6{
+        height: 180vh;
+    }
+        .section-6 article {
+            width: 100%;
+            height: 80vh;
+        }
+    
+        .big-image-4 {
+            width: 100%;
+            height: 100%;
+        }
+        .hero-image-4{
+            max-width: 70vw;
         }
 }

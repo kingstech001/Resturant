@@ -24,7 +24,7 @@ span{
     margin-top: 40px;
     width: 100%;
     align-items: center;
-    height: 100vh;
+    height: 150vh;
     padding: 5rem;
 }
 .thop{
@@ -110,7 +110,7 @@ span{
     
     .home {
         justify-content: center;
-        height: 120vh;
+        height: 200vh;
         flex-direction: column;
         padding: 2rem;
     }
@@ -129,5 +129,8 @@ span{
     }
     .home .pic img {
         margin-left: 4rem;
+    }
+    .rec{
+        height: 150vh;
     }
 }
