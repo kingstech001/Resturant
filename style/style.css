@@ -618,7 +618,7 @@ h3{
     }
     footer{
         padding: 2rem;
-        height: 180vh;
+        height: 200vh;
     }
     .big-image-5{
         width: 100%;
@@ -628,7 +628,7 @@ h3{
         }
 
     .top{
-    height: 80%;
+    height: 100%;
 }
     .top,.down{
         flex-direction: column;
